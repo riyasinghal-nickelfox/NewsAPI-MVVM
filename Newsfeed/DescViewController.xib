@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DescViewController" customModule="Newsfeed" customModuleProvider="target">
+            <connections>
+                <outlet property="myDescription" destination="HRz-AM-WEU" id="Vkp-Ga-QaG"/>
+                <outlet property="myName" destination="MuD-Ah-GWW" id="dYb-U3-04X"/>
+                <outlet property="newsImage" destination="VBX-aw-gwL" id="bhU-OT-6e3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VBX-aw-gwL">
+                    <rect key="frame" x="18" y="44" width="378" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="FSk-fB-ICE"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MuD-Ah-GWW">
+                    <rect key="frame" x="18" y="259" width="378" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="CAd-3z-nU5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRz-AM-WEU">
+                    <rect key="frame" x="18" y="295" width="378" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="HRz-AM-WEU" firstAttribute="top" secondItem="MuD-Ah-GWW" secondAttribute="bottom" constant="15" id="Hnt-V4-vVb"/>
+                <constraint firstAttribute="trailing" secondItem="VBX-aw-gwL" secondAttribute="trailing" constant="18" id="KVc-JT-Jnd"/>
+                <constraint firstItem="VBX-aw-gwL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="Y4c-Id-I4c"/>
+                <constraint firstItem="HRz-AM-WEU" firstAttribute="leading" secondItem="MuD-Ah-GWW" secondAttribute="leading" id="YPR-Gf-K2J"/>
+                <constraint firstItem="HRz-AM-WEU" firstAttribute="trailing" secondItem="MuD-Ah-GWW" secondAttribute="trailing" id="dVX-l6-GMA"/>
+                <constraint firstItem="MuD-Ah-GWW" firstAttribute="top" secondItem="VBX-aw-gwL" secondAttribute="bottom" constant="35" id="i9K-0I-J1i"/>
+                <constraint firstItem="VBX-aw-gwL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="sPk-hP-Ypl"/>
+                <constraint firstItem="MuD-Ah-GWW" firstAttribute="trailing" secondItem="VBX-aw-gwL" secondAttribute="trailing" id="sdt-Cz-ES0"/>
+                <constraint firstItem="MuD-Ah-GWW" firstAttribute="leading" secondItem="VBX-aw-gwL" secondAttribute="leading" id="wul-Pm-Z6i"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="153"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

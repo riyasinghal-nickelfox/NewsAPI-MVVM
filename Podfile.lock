@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AnyErrorKit (0.1.4)
+  - FoxAPIKit (0.2.0):
+    - Alamofire (~> 4.7)
+    - AnyErrorKit (~> 0.1.4)
+    - JSONParsing (~> 0.2.0)
+    - SwiftyJSON (~> 4.0)
+  - JSONParsing (0.2.1):
+    - AnyErrorKit (~> 0.1.1)
+    - SwiftyJSON (~> 4.0)
+  - ReactiveSwift (7.0.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - FoxAPIKit (from `https://github.com/Nickelfox/FoxAPIKit.git`, branch `develop`)
+  - ReactiveSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AnyErrorKit
+    - JSONParsing
+    - ReactiveSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  FoxAPIKit:
+    :branch: develop
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+
+CHECKOUT OPTIONS:
+  FoxAPIKit:
+    :commit: 36d33a30b844ee3ca19288a046744e06033eb956
+    :git: https://github.com/Nickelfox/FoxAPIKit.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AnyErrorKit: 6083091402347e82158c4e6e565680bdd4d1928c
+  FoxAPIKit: 49a6aa35a6326dccdffab5df2f213c6c107cbd7e
+  JSONParsing: 042f0e156c69002af7092084f3b9822867270b3d
+  ReactiveSwift: 48c4b9d3b497e8dd20b10300bb1a28ff93550f13
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: f4c17c1d43f515f052df32f93b206473cd84c809
+
+COCOAPODS: 1.11.3

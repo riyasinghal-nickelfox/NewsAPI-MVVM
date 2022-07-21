@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-Newsfeed/Pods-Newsfeed-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AnyErrorKit/AnyErrorKit.framework
+${BUILT_PRODUCTS_DIR}/FoxAPIKit/FoxAPIKit.framework
+${BUILT_PRODUCTS_DIR}/JSONParsing/JSONParsing.framework
+${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
